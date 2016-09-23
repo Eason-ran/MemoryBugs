@@ -1,5 +1,7 @@
 package com.github.lzyzsd.memorybugs;
 
+import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Rect;
 import android.os.Bundle;
@@ -71,4 +73,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             System.out.println("-------: " + rect.width());
         }
     }
+
+    
 }
