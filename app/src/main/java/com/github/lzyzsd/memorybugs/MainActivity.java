@@ -16,7 +16,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private static TextView sTextView;
+    private TextView sTextView;
     private Button mStartBButton;
     private Button mStartAllocationButton;
 
@@ -74,5 +74,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    
 }
